@@ -103,9 +103,9 @@ small navbar
 
 /* Hamburger Stuff */
 .hamburger-button {
-    position: relative;
-    top: 0.75rem;
-    right: 1rem;
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -121,6 +121,11 @@ small navbar
 }
 
 @media (max-width: 600px) {
+
+    .navbar-tabs-container {
+        min-width: 20%;
+    }
+
     .hamburger-button {
         display: flex;
     }
