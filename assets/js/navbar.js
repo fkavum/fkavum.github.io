@@ -1,5 +1,6 @@
 // Shrink the navbar
 let nav = document.querySelector('.main-nav');
+let brandName = document.querySelector('.brand-name');
 let brandTitle = document.querySelector('.brand-title');
 let position = 0;
 
@@ -30,12 +31,14 @@ window.addEventListener('scroll', function () {
 
 function bigNav() {
     nav.classList = 'main-nav';
-    brandTitle.classList = 'brand-title';
+    brandName.classList = 'brand-name';
+    brandTitle.classList = 'brand-title'
 }
 
 function smallNav() {
     nav.classList = 'main-nav small-nav';
-    brandTitle.classList = 'brand-title small-brand-title';
+    brandName.classList = 'brand-name small-brand-name';
+    brandTitle.classList = 'brand-title small-brand-title'
 }
 
 function closeNav() {
