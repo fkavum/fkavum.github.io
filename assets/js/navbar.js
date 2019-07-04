@@ -9,7 +9,7 @@ window.addEventListener('scroll', function () {
     if (position < window.pageYOffset + 1) {
         position = window.pageYOffset;
 
-        if (window.pageYOffset < 150) {
+        if (window.pageYOffset < 1) {
             bigNav();
         } else if (window.pageYOffset < 400) {
             smallNav();
@@ -19,7 +19,7 @@ window.addEventListener('scroll', function () {
     } else {
         position = window.pageYOffset;
 
-        if (window.pageYOffset < 150) {
+        if (window.pageYOffset < 1) {
             bigNav();
         } else if (window.pageYOffset < 400) {
             smallNav();
