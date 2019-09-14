@@ -44,8 +44,8 @@
 
 .scroll-button div:hover {
     text-decoration: none;
-    background-color: orange;
-    opacity: 0.3;
+    background-color: grey;
+    opacity: 0.1;
 }
 
 .s-12 {
