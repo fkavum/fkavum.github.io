@@ -2,6 +2,7 @@
 let nav = document.querySelector('.main-nav');
 let brandName = document.querySelector('.brand-name');
 let brandTitle = document.querySelector('.brand-title');
+let socialMed = document.querySelector('.social-med');
 let position = 0;
 
 window.addEventListener('scroll', function () {
@@ -33,33 +34,16 @@ function bigNav() {
     nav.classList = 'main-nav';
     brandName.classList = 'brand-name';
     brandTitle.classList = 'brand-title'
+    socialMed.classList = 'social-med';
 }
 
 function smallNav() {
     nav.classList = 'main-nav small-nav';
     brandName.classList = 'brand-name small-brand-name';
-    brandTitle.classList = 'brand-title small-brand-title'
+    brandTitle.classList = 'brand-title small-brand-title';
+    socialMed.classList = 'social-med up';
 }
 
 function closeNav() {
     nav.classList = 'main-nav small-nav up';
 }
-
-// Hamburger Menu
-let toggleButton = document.getElementsByClassName('hamburger-button')[0];
-const navbarTabs = document.getElementsByClassName('navbar-tabs')[0];
-console.log(navbarTabs);
-
-toggleButton.addEventListener('click', () => {
-    navbarTabs.classList.toggle('hamburger-active');
-});
-
-window.addEventListener('click', function (e) {
-    if (navbarTabs.classList.contains('hamburger-active')) {
-        if (navbarTabs.contains(e.target) || toggleButton.contains(e.target)) {
-            this.console.log('divdeyim');
-        } else {
-            navbarTabs.classList.toggle('hamburger-active');
-        }
-    }
-});
