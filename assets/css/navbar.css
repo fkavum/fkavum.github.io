@@ -48,7 +48,7 @@
 
 .navbar-tabs-container {
   position: relative;
-  min-width: 40%;
+  min-width: 65%;
 }
 
 .button-text {
@@ -60,7 +60,7 @@
   padding: 0;
   display: flex;
   position: absolute;
-  right: 2px;
+  right: 5rem;
   bottom: 7px;
 }
 
@@ -113,8 +113,11 @@ small navbar
   border-radius: 50%;
   padding-top: 50px;
 }
+
 .social-med {
+  position: absolute;
   transition: all 500ms ease-in-out;
+  right: 10rem;
 }
 
 .fa:hover {
@@ -136,6 +139,7 @@ small navbar
   background: #007bb5;
   color: white;
 }
+
 .fa-linkedin:hover {
   background: #007bb5;
   color: white;
@@ -146,6 +150,7 @@ small navbar
   background: #bb0000;
   color: white;
 }
+
 .fa-youtube:hover {
   background: #bb0000;
   color: white;
@@ -156,6 +161,7 @@ small navbar
   background: #125688;
   color: white;
 }
+
 .fa-instagram:hover {
   background: #125688;
   color: white;
