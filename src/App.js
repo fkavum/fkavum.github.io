@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router,Route,Redirect,Switch} from "react-router-dom";
+import {HashRouter as Router,Route,Redirect,Switch,} from "react-router-dom";   //BrowserRouter as Router
 import "bootstrap/dist/css/bootstrap.min.css"
 
 import Navbar from "./components/navbar.js"
@@ -10,7 +10,7 @@ import NotFound from "./components/404.js";
 
 function App() {
   return (
-    <Router>
+    <Router baseName={process.env.PUBLIC_URL}>
       <div className="container">
       <br/>
       <Navbar />
