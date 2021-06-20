@@ -83,3 +83,9 @@ npm install gh-pages --save-dev
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
 }
+
+
+
+import logo from './logo.svg';
+
+<img src={logo} className="App-logo" alt="logo" />
