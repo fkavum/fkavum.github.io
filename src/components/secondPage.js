@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-export default class NextPage extends Component {
+export default class SecondPage extends Component {
 
   render() {
     return (
         <div>
-            Next Page.
+            Second Page.
         </div>
     );
   }

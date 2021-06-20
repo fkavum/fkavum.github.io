@@ -12,6 +12,12 @@ export default class Navbar extends Component {
           <li className="navbar-item">
           <Link to="/" className="nav-link">Home</Link>
           </li>
+          <li className="navbar-item">
+          <Link to="/nextPage" className="nav-link">NextPage</Link>
+          </li>
+          <li className="navbar-item">
+          <Link to="/thirdPage" className="nav-link">ThirdPage</Link>
+          </li>
         </ul>
         </div>
       </nav>
