@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-export default class LandingPage extends Component {
+export default class NextPage extends Component {
 
   render() {
     return (
         <div>
-            Under Construction.
+            next page.
         </div>
     );
   }
