@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 
 export default class Navbar extends Component {
 
+  componentDidMount(){
+    document.title = "fkavum"
+  }
+
+
   render() {
     return (
       <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
