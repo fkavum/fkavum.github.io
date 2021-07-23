@@ -6,6 +6,7 @@ svg {
       position: fixed;
       top: 0;
       left: 0;
+      z-index: -5;
 }
   
 .scrollElement {
@@ -13,7 +14,7 @@ svg {
       height: 6000px;
       width: 100px;
       top: 0;
-      z-index: 0;
+      z-index: -5;
 }
 .opacityChanger{
     opacity:0.5;

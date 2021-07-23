@@ -102,29 +102,29 @@ export default class Navbar extends Component {
         </div>
         <div className="navbar-tabs-container">
           <div className="social-med">
-            <Link to="#" className="fa fa-facebook"></Link>
-            <Link to="#" className="fa fa-linkedin"></Link>
-            <Link to="#" className="fa fa-youtube"></Link>
-            <Link to="#" className="fa fa-instagram"></Link>
+            <a href="https://www.facebook.com/DcX23" target="_blank" rel="noreferrer"  className="fa fa-facebook"> </a> 
+            <a href="https://www.linkedin.com/in/fkavum/" target="_blank" rel="noreferrer" className="fa fa-linkedin"> </a>
+            <Link to="/underConstruction" className="fa fa-youtube"></Link>
+            <Link to="/underConstruction" className="fa fa-instagram"></Link>
           </div>
           <div className="navbar-tabs row">
             <ul>
               <li>
                 <div className="row ml-2">
                   <i className="material-icons">portrait</i>
-                  <Link className="button-text" to="#">Portfolio</Link>
+                  <Link className="button-text" to="/underConstruction">Portfolio</Link>
                 </div>
               </li>
               <li>
                 <div className="row ml-2">
                   <i className="material-icons">portrait</i>
-                  <Link className="button-text" to="#">Projects</Link>
+                  <Link className="button-text" to="/underConstruction">Projects</Link>
                 </div>
               </li>
               <li>
                 <div className="row mx-2">
                   <i className="material-icons">portrait</i>
-                  <Link className="button-text" to="#">Blog</Link>
+                  <Link className="button-text" to="/underConstruction">Blog</Link>
                 </div>
               </li>
             </ul>
