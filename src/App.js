@@ -12,9 +12,9 @@ import NotFound from "./components/dummy/404.js";
 function App() {
   return (
     <Router baseName="tr">
-      <div className="container">
+      <div>
       <br/>
-      {/* <Navbar /> */}
+      <Navbar />
       <Switch>
         <Route path="/" exact component={LandingPage} />
         <Route path="/nextPage" exact component={NextPage} />
