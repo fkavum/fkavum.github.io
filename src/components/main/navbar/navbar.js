@@ -107,22 +107,22 @@ export default class Navbar extends Component {
             <Link to="/underConstruction" className="fa fa-youtube"></Link>
             <Link to="/underConstruction" className="fa fa-instagram"></Link>
           </div>
-          <div className="navbar-tabs row">
+          <div className="navbar-tabs">
             <ul>
               <li>
-                <div className="row ml-2">
+                <div className="navbar-tab-element">
                   <i className="material-icons">portrait</i>
                   <Link className="button-text" to="/underConstruction">Portfolio</Link>
                 </div>
               </li>
               <li>
-                <div className="row ml-2">
+                <div className="navbar-tab-element">
                   <i className="material-icons">portrait</i>
                   <Link className="button-text" to="/underConstruction">Projects</Link>
                 </div>
               </li>
               <li>
-                <div className="row mx-2">
+                <div className="navbar-tab-element">
                   <i className="material-icons">portrait</i>
                   <Link className="button-text" to="/underConstruction">Blog</Link>
                 </div>
